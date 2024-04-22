@@ -66,6 +66,25 @@ p {
   margin: 0;
 }
 
+.meso {
+  color: #ffb742;
+  width: 6em;
+  height: 2em;
+  border-radius: 3px;
+  background: #333333;
+  box-shadow: inset 5px 5px 17px #222222,
+    inset -5px -5px 17px #444444;
+}
+
+.meso :hover {
+  width: 10em;
+  height: 3em;
+  border-radius: 0em;
+  background: #232323;
+  box-shadow: 35px 35px 70px #1e1e1e,
+    -35px -35px 70px #282828;
+}
+
 /*area do main*/
 .main h1 {
   font-size: 50px;
@@ -181,18 +200,18 @@ p {
   align-items: center;
 }
 
-.guarantee .item .info h3{
+.guarantee .item .info h3 {
   font-size: 30px;
   font-weight: 700;
 }
 
-.guarantee .item .info p{
+.guarantee .item .info p {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
 
-.sobre img{
+.sobre img {
   width: 25em;
   border-radius: 10px;
 }
